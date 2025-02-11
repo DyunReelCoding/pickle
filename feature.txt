@@ -1,0 +1,6 @@
+# Keep only highly correlated features
+selected_columns = [
+    'Benign', 'DebugSize', 'BitcoinAddresses', 'ExportSize', 'DebugRVA', 'ExportRVA',
+    'DllCharacteristics', 'MajorLinkerVersion', 'Machine', 'MajorImageVersion',
+    'MajorOSVersion', 'SizeOfStackReserve'
+]
